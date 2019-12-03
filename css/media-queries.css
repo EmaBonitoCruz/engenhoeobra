@@ -1,0 +1,27 @@
+@media screen and (max-width: 850px) {
+  .navbar img {
+    height: 4rem;
+    width: auto;
+  }
+
+  .row-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .container-somos {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #estatutos {
+    grid-column: 1;
+  }
+
+  .fazemos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projetos-grid {
+    grid-template-columns: 1fr;
+  }
+}
